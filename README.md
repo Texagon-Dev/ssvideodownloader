@@ -24,8 +24,6 @@ A super simple video downloader powered with Tauri and YT-dlp.
 ![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 
 # Development
-[(Back to top)](#table-of-contents)
-
 
 
 ```shell
@@ -36,13 +34,11 @@ cargo tauri dev
 
 
 # Contribute
-[(Back to top)](#table-of-contents)
 
 Contributions are strongly appreciated
 
 
 # License
-[(Back to top)](#table-of-contents)
 
 Copyright (c) 2011-2024 GitHub Inc.
 
