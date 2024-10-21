@@ -7,12 +7,23 @@ import "./output.css";
 function Downloader() {
   const [title, setTitle] = useState("");
   const [url, setUrl] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
+  const [thumbnail, setThumbnail] = useState("");
 
-  async function getTitle(e) {
-    console.log("Running getTitle");
-    setTitle(await invoke("get_title", { url }));
+  async function getMetadata(e) {
+    setIsLoading(true);
+    console.log("Running getMetadata");
+    const metadata = await invoke("get_title", { url });
+    const [title, thumb] = metadata;
+    setTitle(title);
+    setThumbnail(thumb);
+
+    console.log(thumb);
   }
+
+  useEffect(() => {
+    setIsLoading(false);
+  }, [title, thumbnail]);
 
   // Simulate loading an image
   useEffect(() => {
@@ -36,7 +47,9 @@ function Downloader() {
           </div>
         ) : (
           <img
-            src="src/assets/placeholder-thumbnail.png" // Replace with your actual image URL
+            src={
+              thumbnail === "" ? `src/assets/placeholder.jpg` : `${thumbnail}`
+            } // Replace with your actual image URL
             alt="Loaded"
             className="w-full h-full object-cover rounded-md"
           />
@@ -51,7 +64,7 @@ function Downloader() {
         <Button
           type="submit"
           onClick={() => {
-            getTitle();
+            getMetadata();
           }}
           className="bg-gray-500 transition duration-300 ease-in-out  hover:bg-slate-600 text-white p-1 pl-2 pr-2 ml-2 rounded"
         >
