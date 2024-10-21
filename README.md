@@ -3,29 +3,21 @@
 
 # Super Simple Video Downloader
 
-[![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-
 A super simple video downloader powered with Tauri and YT-dlp.
 
 <!-- Add badges with link to Shields IO -->
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Texagon-Dev/ssvideodownloader)
-: Shows the current release version.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Texagon-Dev/ssvideodownloader)
-: Shows the last commit time. Good indication of the project activity.
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/Texagon-Dev/ssvideodownloader)
-: Dynamic badge that shows the number of open issues in the project.
 
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Texagon-Dev/ssvideodownloader)
-: Similar dynamic badge, but for pull requests.
 
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
+![GitHub](https://img.shields.io/github/license/Texagon-Dev/ssvideodownloader)
 
 # Development
-[(Back to top)](#table-of-contents)
-
 
 
 ```shell
@@ -36,13 +28,11 @@ cargo tauri dev
 
 
 # Contribute
-[(Back to top)](#table-of-contents)
 
 Contributions are strongly appreciated
 
 
 # License
-[(Back to top)](#table-of-contents)
 
 Copyright (c) 2011-2024 GitHub Inc.
 
