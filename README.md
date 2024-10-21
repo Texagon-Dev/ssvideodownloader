@@ -3,8 +3,6 @@
 
 # Super Simple Video Downloader
 
-[![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-
 A super simple video downloader powered with Tauri and YT-dlp.
 
 <!-- Add badges with link to Shields IO -->
@@ -21,7 +19,7 @@ A super simple video downloader powered with Tauri and YT-dlp.
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Texagon-Dev/ssvideodownloader)
 : Similar dynamic badge, but for pull requests.
 
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
+![GitHub](https://img.shields.io/github/license/Texagon-Dev/ssvideodownloader)
 
 # Development
 
