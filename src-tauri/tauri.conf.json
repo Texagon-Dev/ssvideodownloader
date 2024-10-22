@@ -24,7 +24,8 @@
 
   "bundle": {
     "externalBin": [
-        "yt-dlp/yt-dlp"
+        "yt-dlp/yt-dlp",
+        "yt-dlp/ffmpeg"
       ],
      
     "active": true,

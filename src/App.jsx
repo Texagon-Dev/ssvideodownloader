@@ -1,5 +1,4 @@
 import Downloader from "./Downloader";
-import { invoke } from "@tauri-apps/api/core";
 
 import "./output.css";
 
