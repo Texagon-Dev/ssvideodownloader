@@ -7,3 +7,4 @@ src-tauri/yt-dlp/yt-dlp-x86_64-pc-windows-msvc.exe filter=lfs diff=lfs merge=lfs
 src-tauri/yt-dlp/ffmpeg-aarch64-apple-darwin filter=lfs diff=lfs merge=lfs -text
 src-tauri/yt-dlp/ffmpeg-x86_64-apple-darwin filter=lfs diff=lfs merge=lfs -text
 src-tauri/yt-dlp/yt-dlp-aarch64-apple-darwin filter=lfs diff=lfs merge=lfs -text
+src-tauri/yt-dlp/** filter=lfs diff=lfs merge=lfs -text
